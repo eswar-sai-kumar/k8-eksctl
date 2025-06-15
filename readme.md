@@ -14,8 +14,10 @@
 
 - aws configure
 
-- eksctl create cluster --config-file=eks.yaml
+- eksctl create cluster --config-file=eks.yaml (usually takes 15 minutes)
 
 - kubectl get nodes 
 
 - kubectl version
+
+- eksctl delete cluster --config-file=eks.yaml
